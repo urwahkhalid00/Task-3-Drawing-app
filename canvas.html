@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="./canvas.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="nav">
+        <div class="clr" data-clr="black"></div>
+        <div class="clr" data-clr="brown"></div>
+        <div class="clr" data-clr="purple"></div>
+        <div class="clr" data-clr="pink"></div>
+        <div class="clr" data-clr="green"></div>
+        <div class="clr" data-clr="red"></div>
+        <div class="clr" data-clr="orange"></div>
+        <div class="clr" data-clr="yellow"></div>
+        <div class="clr" data-clr="gray"></div>
+        <div class="clr" data-clr="navy"></div>
+         <div class="brushes">
+        <div class="brush" data-brush="small">Small </div>
+        <div class="brush" data-brush="medium">Medium </div>
+        <div class="brush" data-brush="large">Large </div>
+    </div>
+    <div class="shapes">
+        <div class="shape" data-shape="circle">Circle</div>
+        <div class="shape" data-shape="square">Square</div>
+        <div class="shape" data-shape="triangle">Triangle</div>
+    </div>
+        <button class="clear">Clear</button>
+        <button class="save">Save</button>
+        
+        <input type="color" value="#ffffff" id="favclr">
+
+    </div>
+  
+    <script src="./canvas.js"></script>
+</body>
+</html>
